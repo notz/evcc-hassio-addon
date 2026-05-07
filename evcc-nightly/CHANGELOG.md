@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#29450)
+* Revert "EVBox Elvi: fix template (#29652)"
+* chore: simplify off-action error message (#29707)
+* HomeAssistant: dispatch CallSwitchService by entity domain (#29700) (#29706)
+* EEBus: fix LPC/LPP CS failsafe-exit path (#29705)
+* EEBus: drop redundant Scenario middle word from constant names (#29704)
+* EEBus: named scenario constants + fix MGCP scenario indices (#29701)
+* Revert "Templates: fix intervall type (BC) (#29698)"
+* Templates: fix intervall type (BC) (#29698)
+* sqlite: fix foreign_keys error (#29697)
+* Make fatal banner dismissible (#29692)
+* Yaml: fix decoding empty stream everywhere (#29690)
+* Bluelink: fix unmarshal float EvModeRange.Value from Hyundai EU API (#29687)
+* RCT: fix grid energy (#29688)
+* Add ZAR (South African Rand) to currency list (#29620)
 * Wallbe: remove deprecated (BC) (#29647)
 * Sessions API: filter tz handling (#29676)
 * Loadpoint UI: improve heatpump status (#29667)
