@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Bluelink: convert evModeRange and odometer from miles to km when unit=3 (#29731)
+* Revert "Stiebel WPM: re-add power (#29627)"
+* OCPP: fix flaky test deadlock between trigger handler and WS read loop (#29725)
+* Tessie: fix wakeup uri (#29726)
+* Trydan: pause dynamic mode during charging (#28365)
 * Translations update from Hosted Weblate (#29450)
 * Revert "EVBox Elvi: fix template (#29652)"
 * chore: simplify off-action error message (#29707)
