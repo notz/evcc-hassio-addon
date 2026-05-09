@@ -2,34 +2,49 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Bluelink: convert evModeRange and odometer from miles to km when unit=3 (#29731)
-* Revert "Stiebel WPM: re-add power (#29627)"
-* OCPP: fix flaky test deadlock between trigger handler and WS read loop (#29725)
-* Tessie: fix wakeup uri (#29726)
-* Trydan: pause dynamic mode during charging (#28365)
-* Translations update from Hosted Weblate (#29450)
-* Revert "EVBox Elvi: fix template (#29652)"
-* chore: simplify off-action error message (#29707)
-* HomeAssistant: dispatch CallSwitchService by entity domain (#29700) (#29706)
-* EEBus: fix LPC/LPP CS failsafe-exit path (#29705)
-* EEBus: drop redundant Scenario middle word from constant names (#29704)
-* EEBus: named scenario constants + fix MGCP scenario indices (#29701)
+* chore: update Dockerfile for cmd/decorate → cmd/implement rename (#29778)
+* chore: simplify implementing decorators (#28576)
+* Solinteg: add phase powers and currents (#29749)
+* fix: drag & drop stability (#29730)
+* chore(deps-dev): bump ip-address from 10.1.0 to 10.2.0 (#29718)
+* Fritz: make unit 1-based (BC) (#29741)
+
+## [0.306.3] - 2026-05-08
+
+## Changelog
+### Breaking Changes 🚨
 * Revert "Templates: fix intervall type (BC) (#29698)"
 * Templates: fix intervall type (BC) (#29698)
-* sqlite: fix foreign_keys error (#29697)
-* Make fatal banner dismissible (#29692)
-* Yaml: fix decoding empty stream everywhere (#29690)
-* Bluelink: fix unmarshal float EvModeRange.Value from Hyundai EU API (#29687)
-* RCT: fix grid energy (#29688)
-* Add ZAR (South African Rand) to currency list (#29620)
 * Wallbe: remove deprecated (BC) (#29647)
-* Sessions API: filter tz handling (#29676)
-* Loadpoint UI: improve heatpump status (#29667)
-* Energyflow: show all loadpoints (#29677)
-* infra: fix demo deploy
-* Fix comment-only yaml in device config validation (#29673)
-* Session energy: latch baseline late if meter not ready at start (#29656)
+### New Features 💫
+* Add ZAR (South African Rand) to currency list (#29620)
+* Revert "Stiebel WPM: re-add power (#29627)"
+* Siemens 7KT: add voltages (#29732)
+### Other Changes ☀️
 * Battery UI: 100% buffersoc resets bufferstart (#29669)
+* Bluelink: convert evModeRange and odometer from miles to km when unit=3 (#29731)
+* EEBus: drop redundant Scenario middle word from constant names (#29704)
+* Energyflow: show all loadpoints (#29677)
+* HomeAssistant: dispatch CallSwitchService by entity domain (#29700) (#29706)
+* Loadpoint UI: improve heatpump status (#29667)
+* Make fatal banner dismissible (#29692)
+* Session energy: latch baseline late if meter not ready at start (#29656)
+* Sessions API: filter tz handling (#29676)
+* Trydan: pause dynamic mode during charging (#28365)
+### Bug Fixes 🐞
+* Bluelink: fix unmarshal float EvModeRange.Value from Hyundai EU API (#29687)
+* EEBus: fix LPC/LPP CS failsafe-exit path (#29705)
+* EEBus: named scenario constants + fix MGCP scenario indices (#29701)
+* Fix comment-only yaml in device config validation (#29673)
+* OCPP: fix flaky test deadlock between trigger handler and WS read loop (#29725)
+* RCT: fix grid energy (#29688)
+* Revert "EVBox Elvi: fix template (#29652)"
+* Tessie: fix wakeup uri (#29726)
+* Yaml: fix decoding empty stream everywhere (#29690)
+* infra: fix demo deploy
+* sqlite: fix foreign_keys error (#29697)
+
+
 
 ## [0.306.2] - 2026-05-05
 
