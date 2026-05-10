@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "api: split MeterEnergy into MeterImport and MeterExport (#29788)"
 * chore(deps-dev): bump @babel/plugin-transform-modules-systemjs from 7.29.0 to 7.29.4 (#29797)
 * api: split MeterEnergy into MeterImport and MeterExport (#29788)
 * Batteries: track energy metrics (#29780)
