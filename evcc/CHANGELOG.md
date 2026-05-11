@@ -4,8 +4,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## Changelog
 ### Breaking Changes 🚨
-* Revert "Templates: fix intervall type (BC) (#29698)"
-* Templates: fix intervall type (BC) (#29698)
 * Wallbe: remove deprecated (BC) (#29647)
 ### New Features 💫
 * Add ZAR (South African Rand) to currency list (#29620)
