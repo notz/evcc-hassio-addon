@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Grid charge: fix 0 cost limit (#29817)
+* chore: inline bucket expression and extend tests (#29820)
+* History UI: fix timezone handling (#29819)
 * Siemens 7KT1665: remove timeouts (#29800)
 * chore: minor
 * Enphase: add voltages (#29795)
@@ -23,8 +26,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## Changelog
 ### Breaking Changes 🚨
-* Revert "Templates: fix intervall type (BC) (#29698)"
-* Templates: fix intervall type (BC) (#29698)
 * Wallbe: remove deprecated (BC) (#29647)
 ### New Features 💫
 * Add ZAR (South African Rand) to currency list (#29620)
@@ -51,7 +52,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Revert "EVBox Elvi: fix template (#29652)"
 * Tessie: fix wakeup uri (#29726)
 * Yaml: fix decoding empty stream everywhere (#29690)
-* infra: fix demo deploy
 * sqlite: fix foreign_keys error (#29697)
 
 
