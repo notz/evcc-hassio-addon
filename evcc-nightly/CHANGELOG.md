@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Siemens 7KT1665: remove timeouts (#29800)
+* chore: minor
+* Enphase: add voltages (#29795)
+* Add Siemens 7KT1666 (#29801)
+* chore: update Wallbe type
+* Ocpp: fall back to confirmed profile limit for GetMaxCurrent (#29783)
 * Revert "api: split MeterEnergy into MeterImport and MeterExport (#29788)"
 * chore(deps-dev): bump @babel/plugin-transform-modules-systemjs from 7.29.0 to 7.29.4 (#29797)
 * api: split MeterEnergy into MeterImport and MeterExport (#29788)
