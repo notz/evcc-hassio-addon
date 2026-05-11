@@ -30,7 +30,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Revert "EVBox Elvi: fix template (#29652)"
 * Tessie: fix wakeup uri (#29726)
 * Yaml: fix decoding empty stream everywhere (#29690)
-* infra: fix demo deploy
 * sqlite: fix foreign_keys error (#29697)
 
 
