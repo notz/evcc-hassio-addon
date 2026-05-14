@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: add custom dimmer/curtailer (#29857)
+* chore: add dimmer implementation (#29855)
+* Fritz Smart Energy 250: add pv
 * OCPP: dispatch RemoteStartTransaction asynchronously to avoid WebSocket deadlock (#29838)
 * Loadpoint: suppress PV disable timer while climater is active (#29837)
 * Grid charge: fix 0 cost limit (#29817)
